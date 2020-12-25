@@ -33,7 +33,7 @@ rm -rf .repo/local_manifests/*
 if [ -f /lineage/setup.sh ]; then
     source /lineage/setup.sh
 fi
-yes | repo init -u https://github.com/lineageos/android.git -b ${VERSION}
+yes | repo init -u https://github.com/Dandelion4ik/course_work
 echo "Resetting build tree"
 repo forall -vc "git reset --hard" > /tmp/android-reset.log 2>&1
 echo "Syncing"
